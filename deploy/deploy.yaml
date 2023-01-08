@@ -3,7 +3,7 @@ kind: Service
 metadata:
     name: hello-node-svc
 spec:
-    type: LoadBalancer
+    type: ClusterIP
     selector:
         app: hello-node
     ports:
