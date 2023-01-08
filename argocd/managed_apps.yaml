@@ -20,3 +20,5 @@ spec:
     path: deploy
     repoURL: https://github.com/cawfeecoder/test-age
     targetRevision: HEAD
+    plugin:
+      name: sops
